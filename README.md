@@ -15,7 +15,7 @@
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
   # San Francisco Fonts | Apple Fonts
-  inputs.apple-fonts.url= "github:Lyndeno/apple-fonts.nix";
+  inputs.apple-fonts.url= "github:fLock2/apple-fonts.nix";
 
   outputs = { self, nixpkgs, apple-fonts.nix }: {
     nixosConfigurations = {
@@ -53,7 +53,7 @@ Leading to a full example looking more like:
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
   # San Francisco Fonts | Apple Fonts
-  inputs.apple-fonts.url= "github:Lyndeno/apple-fonts.nix";
+  inputs.apple-fonts.url= "github:fLock2/apple-fonts.nix";
   inputs.apple-fonts.inputs.nixpkgs.follows = "nixpkgs";
 
   # Stylix
